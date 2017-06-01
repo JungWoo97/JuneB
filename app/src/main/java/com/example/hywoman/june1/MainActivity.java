@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         mBtn1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {1
+            public void onClick(View v) {
                 Intent ticket = new Intent(MainActivity.this, uuu);
                 startActivity(ticket);
             }
